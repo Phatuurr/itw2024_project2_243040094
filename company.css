@@ -1,0 +1,107 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+
+body {
+    font-family: 'montserrat';
+    font-size: 20px;
+    height: 500vh;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.home {
+    margin-top: 60px;
+}
+
+.home img {
+    width: 100%;
+}
+
+.about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.font-besar {
+    font-size: 2.3rem;
+}
+
+.card-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .card-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#0e366a);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .card-container:hover .card-hover {
+    opacity: 1;
+  }
+
+  .card img {
+    object-fit: cover;
+  }
+
+.icon {
+    font-size: 40px;
+    padding: 10px;
+    color: #fdc437;
+}
+
+.footer {
+    background-color: #0e366a;
+    box-shadow: 1px 1px 10px black;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer .divider {
+    margin: 0 10px;
+    color: #ffffff;
+  }
+
+  .footer-logo {
+    margin: 15px 0;
+  }
+
+  .footer p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #cccccc;
+  }
